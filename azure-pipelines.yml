@@ -12,7 +12,7 @@ steps:
     inputs:
       command: 'custom'
       customcommand: 'install --production'
-  - script: 'ls -al /home/vsts/work/1/s/node_modules'
+  - script: 'ls -al /home/vsts/work/1/s/node_modules/.bin'
     displayName: 'Run unit tests'
     continueOnError: true
   - task: PublishTestResults@2
