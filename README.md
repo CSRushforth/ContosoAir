@@ -1,5 +1,6 @@
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
+[![Build Status](https://craigrushforth.visualstudio.com/ContosoAir/_apis/build/status/CSRushforth.ContosoAir?branchName=master)](https://craigrushforth.visualstudio.com/ContosoAir/_build/latest?definitionId=4&branchName=master)
 
 # Microsoft.Github CI Demo
 
