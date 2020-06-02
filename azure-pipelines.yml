@@ -12,9 +12,6 @@ steps:
     inputs:
       command: 'custom'
       customcommand: 'install --production'
-  - script: 'npm install --save-dev jest-cli'
-    displayName: 'Install jest'
-    continueOnError: true
   - script: 'npm test'
     displayName: 'Run unit tests'
     continueOnError: true
