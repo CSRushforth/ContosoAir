@@ -12,7 +12,9 @@ steps:
     inputs:
       command: 'custom'
       customcommand: 'install --production'
-  - script: 'ls -al /home/vsts/work/1/s/node_modules/.bin'
+  - script: |
+      sudo npm install -g jest
+      npm test
     displayName: 'Run unit tests'
     continueOnError: true
   - task: PublishTestResults@2
