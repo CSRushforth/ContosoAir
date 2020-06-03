@@ -13,7 +13,7 @@ steps:
       command: 'custom'
       customcommand: 'install --production'
   - script: |
-      sudo npm install -g jest
+      sudo npm install --save-dev jest-cli
       npm test
     displayName: 'Run unit tests'
     continueOnError: true
